@@ -234,7 +234,7 @@ header.masthead h2 {
 
 .floating-label-form-group {
     position: relative;
-    border-bottom: 0.1px solid #e9ecef;
+    border-bottom: 0.1px solid rgb(198, 124, 82);
 }
 
 .floating-label-form-group input,
@@ -278,11 +278,11 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #e9ecef;
+    color: rgb(198, 124, 82);
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #e9ecef
+    border-top: 1px solid rgb(198, 124, 82)
 }
 
 
@@ -390,3 +390,20 @@ button.bg-primary:hover {
     background-color: rgb(198, 124, 82) !important;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(198, 124, 82) !important;
+    border-color: white !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: rgb(198, 124, 82) !important;
+}
