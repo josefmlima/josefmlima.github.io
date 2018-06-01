@@ -407,3 +407,9 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px white inset !important;
     -webkit-text-fill-color: rgb(198, 124, 82) !important;
 }
+
+div.progress {
+    margin:50px auto; /* Posicionar melhor a barra nesse exemplo, não é necessário */
+    width:200px;
+  }
+
