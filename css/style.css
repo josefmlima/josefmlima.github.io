@@ -263,8 +263,7 @@ header.masthead h2 {
     -moz-transition: top .3s ease, opacity .3s ease;
     -ms-transition: top .3s ease, opacity .3s ease;
     transition: top .3s ease, opacity .3s ease;
-    vertical-align: middle;
-    vertical-align: baseline;
+    
     opacity: 0
 }
 
@@ -330,7 +329,6 @@ form .row:first-child .floating-label-form-group {
 
 .btn-primary {
     background-color: rgb(198, 124, 82);
-    ;
     color: rgb(198, 203, 180);
     border-color: rgb(198, 124, 82);
 }
@@ -341,6 +339,12 @@ form .row:first-child .floating-label-form-group {
     background-color: white;
     border-color: white;
     color: rgb(198, 124, 82);
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
 .btn-secondary {
@@ -369,8 +373,13 @@ form .row:first-child .floating-label-form-group {
     border-color: rgb(92, 142, 83);
 }
 
-.title {
+.title1 {
+    text-align: center;
+    color: rgb(198, 124, 82);    
+}
+
+.title2 {
     text-align: center;
     color: #CFD2BB;
-    
 }
+
