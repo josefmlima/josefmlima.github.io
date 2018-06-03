@@ -430,7 +430,10 @@ input:-webkit-autofill:focus {
 }
 
 .progress {
-    background-color: rgb(198, 203, 180);
+    background-color: #CFD2BB;
+    font-size: 1rem;
+    width: 75%;
+    margin-left: 3em;
 }
 
 .progress-bar {
