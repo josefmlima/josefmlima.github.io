@@ -443,3 +443,18 @@ input:-webkit-autofill:focus {
 .bg-info {
     background-color: rgb(92, 142, 83) !important;
 }
+
+.embed-box {
+position: relative;
+padding-bottom: 75%; 
+height: 0;
+overflow: hidden;
+}
+
+.embed-box iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
