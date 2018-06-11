@@ -449,3 +449,24 @@ input:-webkit-autofill:focus {
     background-color: rgb(92, 142, 83) !important;
 }
 
+#video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: black;
+}
+
+#myVideo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
